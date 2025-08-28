@@ -29,22 +29,27 @@ cd tic-tac-toe-gpu
 
 Set up Python environment
 
-'''
+```
 pip install numpy
+
 pip install tk
+
 pip install pillow
+
 pip install imageio
+
 pip install matplotlib
+
 pip install numba
-'''
+```
 
 Usage
 
 Run the game:
 
-'''
+```
 python CUDA_Competing_GPUs.py
-'''
+```
 
 Gameplay
 

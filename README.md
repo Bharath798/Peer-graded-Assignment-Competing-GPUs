@@ -16,3 +16,10 @@ Features
 ✅ Option to save the game session as a video (.mp4)
 
 ✅ Robust fallback: if CUDA is unavailable, the game still works in CPU-only mode
+
+
+Installation
+
+Clone the repository
+git clone https://github.com/yourusername/tic-tac-toe-gpu.git
+cd tic-tac-toe-gpu

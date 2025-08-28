@@ -64,19 +64,19 @@ Gameplay
 
 Technical Highlights
 
-CUDA Integration
+1) CUDA Integration
 
 * Uses Numba @cuda.jit kernels for GPU activity
 
 * Warm-up kernel to stabilize CUDA context
 
-AI Opponent
+2) AI Opponent
 
 * Implements minimax algorithm with depth-based scoring
 
 * Guarantees optimal play (impossible to beat if you play randomly)
 
-GUI & Multimedia
+3) GUI & Multimedia
 
 * Tkinter for game board
 

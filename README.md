@@ -60,3 +60,26 @@ Gameplay
 3) Click on the grid to make your move
 
 4) The GPU opponent will respond optimally
+
+
+Technical Highlights
+
+CUDA Integration
+
+* Uses Numba @cuda.jit kernels for GPU activity
+
+* Warm-up kernel to stabilize CUDA context
+
+AI Opponent
+
+* Implements minimax algorithm with depth-based scoring
+
+* Guarantees optimal play (impossible to beat if you play randomly)
+
+GUI & Multimedia
+
+* Tkinter for game board
+
+* PIL.ImageGrab for frame capturing
+
+* ImageIO for video compilation

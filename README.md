@@ -21,7 +21,8 @@ Features
 Installation
 
 Clone the repository
-
+```
 git clone https://github.com/yourusername/tic-tac-toe-gpu.git
 
 cd tic-tac-toe-gpu
+```

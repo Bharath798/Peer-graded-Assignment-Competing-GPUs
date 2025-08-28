@@ -26,3 +26,32 @@ git clone https://github.com/yourusername/tic-tac-toe-gpu.git
 
 cd tic-tac-toe-gpu
 ```
+
+Set up Python environment
+
+'''
+pip install numpy
+pip install tk
+pip install pillow
+pip install imageio
+pip install matplotlib
+pip install numba
+'''
+
+Usage
+
+Run the game:
+
+'''
+python CUDA_Competing_GPUs.py
+'''
+
+Gameplay
+
+1) You are X
+
+2) The GPU opponent is O
+
+3) Click on the grid to make your move
+
+4) The GPU opponent will respond optimally
